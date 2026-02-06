@@ -1,4 +1,4 @@
-Data science is an exciting field that combines statistics, computing, and real-world problem solving. 
+Data science is an exciting field that combines statistics, computing, and real-world problem-solving.
 Many organizations now rely on data science to guide strategic decisions and improve services.
 
 In recent years, data science has become one of the most in-demand skill sets across industries. 
@@ -31,6 +31,6 @@ Collaboration between domain experts and data science professionals often leads 
 As more data becomes available, the importance of data science continues to grow worldwide. 
 Ethical considerations are becoming increasingly important in modern data science practice.
 
-Data science is an exciting field that combines statistics computing and real world problem solving
-Machine learning is a major part of data science allowing computers to learn patterns from data
+Data science is an exciting field that combines statistics computing and real world problem-solving
+Machine learning is a major part of data science allowing computers to learn patterns from data.
 Data visualization plays a key role in communicating insights clearly to different audiences
