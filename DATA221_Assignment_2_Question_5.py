@@ -1,3 +1,11 @@
+"""
+Question 5:
+Adds a `grade_band` column to `student.csv` (`Low`, `Medium`, `High`), groups by this band,
+and computes for each band the number of students, average absences,
+and percentage with internet access. Saves the summary to `student_bands.csv`.
+
+"""
+
 import pandas as pd
 
 def load_student_data(filename: str) -> pd.DataFrame:

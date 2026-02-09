@@ -1,7 +1,14 @@
+"""
+Question 9: Scraping Machine Learning Tables
+Scrapes the Machine learning Wikipedia page, finds the first table in the main content with at least three data rows,
+extracts headers (or creates `col1`, `col2`, … if none),
+pads rows to equal column counts, and saves the table to `wiki_table.csv`.
+"""
+
+
 import requests
 from bs4 import BeautifulSoup
 import csv
-
 
 def scrape_machine_learning_table():
     url = "https://en.wikipedia.org/wiki/Machine_learning"

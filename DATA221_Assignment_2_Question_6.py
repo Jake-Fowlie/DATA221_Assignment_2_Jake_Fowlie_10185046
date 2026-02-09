@@ -1,3 +1,9 @@
+"""
+Question 6:
+Loads `crime.csv`, creates a `risk` column (`HighCrime` if `ViolentCrimesPerPop >= 0.50`, otherwise `LowCrime`),
+groups by `risk`, and prints the average `PctUnemployed` for each risk group.
+"""
+
 import numpy as np
 import pandas as pd
 

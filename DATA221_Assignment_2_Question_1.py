@@ -1,3 +1,9 @@
+"""
+Question 1:
+Reads `sample-file.txt`, cleans tokens (lowercase, strips punctuation,
+keeps tokens with ≥ 2 alphabetic characters),
+counts word frequencies, and prints the 10 most frequent words.
+"""
 import string
 from collections import Counter
 

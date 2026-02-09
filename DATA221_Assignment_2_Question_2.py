@@ -1,4 +1,9 @@
-
+"""
+Question 2:
+Uses the same cleaned tokens from `sample-file.txt`
+to construct bigrams (pairs of consecutive words), counts their frequencies,
+and prints the 5 most frequent bigrams.
+"""
 import string
 import collections
 

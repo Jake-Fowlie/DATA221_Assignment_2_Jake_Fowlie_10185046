@@ -1,3 +1,10 @@
+"""
+Question 3:
+Identifies near-duplicate lines in `sample-file.txt` by normalizing lines
+(lowercase, removing whitespace and punctuation),
+groups lines with identical normalized forms, prints the number of near-duplicate sets,
+and shows the first two sets with line numbers.
+"""
 import string
 
 

@@ -1,3 +1,10 @@
+"""
+Question 7:
+Scrapes the Wikipedia page for Data science using `requests` and `BeautifulSoup`.
+Prints the page title and the first paragraph in the main content (`div` with `id="mw-content-text"`)
+that has at least 50 characters.
+"""
+
 import requests
 from bs4 import BeautifulSoup
 

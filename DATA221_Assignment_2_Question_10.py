@@ -1,3 +1,10 @@
+"""
+Question 10:
+Implements `find_lines_containing(filename, keyword)`, which returns `(line_number, line_text)`
+pairs for lines containing the keyword (case-insensitive).
+Tested on `sample-file.txt` with keyword `lorem`, prints how many lines matched and the first three matches.
+"""
+
 from typing import List, Tuple
 
 def find_lines_containing(filename: str, keyword: str) -> List[Tuple[int, str]]:

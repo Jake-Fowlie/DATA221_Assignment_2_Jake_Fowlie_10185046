@@ -1,3 +1,10 @@
+"""
+Question 8:
+Scrapes the Data science Wikipedia page, extracts all `<h2>` headings from the main content area,
+removes `[edit]`, filters out headings containing “References”, “External links”, “See also”, or “Notes”, a
+nd saves the remaining headings to `headings.txt` (one per line).
+"""
+
 from typing import Any
 
 import requests

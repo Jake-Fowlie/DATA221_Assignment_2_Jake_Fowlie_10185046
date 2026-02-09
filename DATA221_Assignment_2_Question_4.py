@@ -1,3 +1,11 @@
+"""
+Question 4:
+Loads `student.csv` into a pandas DataFrame, filters students with `studytime >= 3`,
+`internet == 1`, and `absences <= 5`,
+writes the result to `high_engagement.csv`, and prints the number of students and their average grade.
+
+"""
+
 import pandas as pd
 
 def load_student_data(filename: str) -> pd.DataFrame:
